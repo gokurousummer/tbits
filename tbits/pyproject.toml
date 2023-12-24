@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tbits"
+version = "0.1.0"
+description = "Text base issue tracking system"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.3"
+cx-freeze = "^6.15.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
